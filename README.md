@@ -95,7 +95,7 @@ python tools/run_net.py \
 
 # Acknowledgements
 
-MambaVL is built on top of [ORViT](https://github.com/eladb3/ORViT), and [AVION](https://github.com/zhaoyue-zephyrus/AVION). We thank the authors for releasing their code. If you use our model, please consider citing these works as well:
+MambaVL is built on top of [ORViT](https://github.com/eladb3/ORViT), [Mamba](https://github.com/state-spaces/mamba) and [AVION](https://github.com/zhaoyue-zephyrus/AVION). We thank the authors for releasing their code. If you use our model, please consider citing these works as well:
 ```BibTeX
 
 @misc{orvit2021,
@@ -124,5 +124,20 @@ MambaVL is built on top of [ORViT](https://github.com/eladb3/ORViT), and [AVION]
   author={Zhao, Yue and Kr{\"a}henb{\"u}hl, Philipp},
   journal={arXiv preprint arXiv:2309.16669},
   year={2023}
+}
+```
+```BibTeX
+@article{mamba,
+  title={Mamba: Linear-Time Sequence Modeling with Selective State Spaces},
+  author={Gu, Albert and Dao, Tri},
+  journal={arXiv preprint arXiv:2312.00752},
+  year={2023}
+}
+
+@inproceedings{mamba2,
+  title={Transformers are {SSM}s: Generalized Models and Efficient Algorithms Through Structured State Space Duality},
+  author={Dao, Tri and Gu, Albert},
+  booktitle={International Conference on Machine Learning (ICML)},
+  year={2024}
 }
 ```
